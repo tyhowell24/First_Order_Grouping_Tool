@@ -1,0 +1,15 @@
+body {
+    background-image: url('metal_floor.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+@font-face {
+    font-family: Aurebesh_english;
+    src: url(AurebeshEnglishRegular-rjeO.ttf)
+}
+
+h1 {
+    color: white;
+}
