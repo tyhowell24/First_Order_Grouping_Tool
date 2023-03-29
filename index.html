@@ -12,14 +12,29 @@
     
 </head>
 <body>
+    <!-- Main Page -->
     <div data-role="page" id="pageMain">
         <div data-role="header" id="header">
+            <img src="images/FO_Logo.png" alt="First Order Logo"/>
             <h1>Interrogation Assignment System</h1>
+            <img src="images/FO_Logo.png" alt="First Order Logo"/>
         </div>
         <div data-role="content">
-
+            <canvas id="myCanvas" width="240" height="297"
+            style="border:1px solid #d3d3d3;">
+            Your browser does not support the HTML5 canvas tag.
+            </canvas>
         </div>
     </div>
+
+    <!-- Script for Canvas -->
+    <script>
+        window.onload = function() {
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+           ctx.drawImage(img, 10, 10);
+        };
+    </script>
 
 
 </body>

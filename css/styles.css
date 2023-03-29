@@ -1,15 +1,37 @@
 body {
-    background-image: url('metal_floor.jpg');
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-  }
+}
+
+#header {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#header img {
+    width: 10%;
+    margin: auto;
+}
+
+#myCanvas {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    width: 75%;
+}
 
 @font-face {
-    font-family: Aurebesh_english;
-    src: url(AurebeshEnglishRegular-rjeO.ttf)
+    font-family: headerFont;
+    src: url(AurebeshEnglishRegular-rjeO.ttf);
 }
 
 h1 {
+    font-family: headerFont;
     color: white;
 }
